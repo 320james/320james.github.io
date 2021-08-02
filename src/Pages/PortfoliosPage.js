@@ -16,11 +16,15 @@ function PortfoliosPage() {
                         projects.map((project) => {
                             return <div key={project.id} className={'project-item'}>
                                 <div className="image">
-                                    <img src={project.image} alt="" />
+                                    <a href={project.link}>
+                                        <img src={project.image} alt="" />
+                                    </a>
                                 </div>
                                 <div className="title">
                                     <div className="project-title">
-                                        {project.title}
+                                        <a href={project.link}>
+                                            {project.title}
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +90,7 @@ const PortfoliosStyled = styled.div`
             
         }
         .title {
-            padding-top: .8rem;
+            padding-top: .6rem;
             line-height: 1.2;
             .project-title {
                 font-size: 0.9rem;

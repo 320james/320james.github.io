@@ -35,7 +35,7 @@ function ImageSection() {
                         <p>Computer Science</p>
                     </div>
                 </div>
-                <a download href="/test.txt">Download CV</a>
+                <a href="https://docs.google.com/document/d/1kvjOTtR2SQ29JGTTFuUgMV4DgtHQrF64AmtGURgTYac/edit?usp=sharing">View Resume</a>
             </div>
         </ImageSectionStyled>
     );

@@ -41,17 +41,17 @@ function Resume() {
                         year={'June 2021 - Aug 2021'}
                         title={'Software Engineering Intern'}
                         subTitle={'Verizon - Basking Ridge, NJ'}
-                        text={'Returning Software Engineering Inten at Verizon (In-Progress).'} />
+                        text={'Programmed front-end UI/UX features on the recommended accessory item cards alongside the Digital Sales team for smartphone device purchase flow on Verizon’s digital platform to help accelerate the digital growth of generating an increase in revenue of accessories from $150M to $395M in 2021. Utilized React.js, media queries, Node.js, Agile, Git, and Jira to enhance the display of product description and dynamic color sku options for accessory product item cards to enhance the digital customer journey.'} />
                     <ResumeItem
                         year={'Jun 2020 - Aug 2020'}
                         title={'Software Engineering Intern'}
                         subTitle={'Verizon - Ashburn, VA'}
-                        text={'Created a full-stack application that can dynamically communicate the availability of Verizon\'s conference room services to promote employee safety and increase social distancing during the COVID-19 pandemic using Spring Boot framework, JPA, REST Services, MySQL, JPA, and Agile Software Development. The application can flexibly retreive a configurable message using a database query and output the message as a static page on multiple channels.'} />
+                        text={'Designed and implemented a full-stack application from scratch that dynamically communicates the availability of Verizon’s conference room services by displaying a static page on multiple channels to promote employee safety during COVID-19. Took ownership of a sophisticated web application leveraging Spring Boot, JPA, MySQL, REST Services, Git, and Agile.'} />
                     <ResumeItem
                         year={'May 2019 - Aug 2019'}
                         title={'Field Specialist'}
                         subTitle={'Hoppy Design & Build'}
-                        text={'Assisted in building decks, kitchens, additions, and provided other home improvement services for homeowners. Learned various skills such as cost analysis, materials handling, inventory control, communications, professionalism, and machinery.'} />
+                        text={'Built modern decks, kitchens, additions, and provided other home upgrades for homeowners while mastering cost analysis, materials handling, professionalism, and different tool handling.'} />
                 </div>
             </InnerLayout>
         </ResumeStyled >
