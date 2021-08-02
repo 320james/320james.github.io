@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MainLayout, InnerLayout } from '../styles/Layouts';
 import Title from '../Components/Title';
 import styled from 'styled-components';
 import projects from '../data/projects';
 
 function PortfoliosPage() {
-    //const [menuItem, setMenuItems] = useState();
     return (
 
         <MainLayout>
