@@ -10,8 +10,8 @@ function ReviewsSection() {
             <Title title={'Reviews'} span={'Reviews'} />
             <InnerLayout>
                 <div className="reviews">
-                    <ReviewItem text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quas eos velit vero praesentium reprehenderit ipsa sapiente placeat temporibus, id iure, soluta quis corrupti doloremque voluptatum cupiditate, labore magni exercitationem!'} />
-                    <ReviewItem text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quas eos velit vero praesentium reprehenderit ipsa sapiente placeat temporibus, id iure, soluta quis corrupti doloremque voluptatum cupiditate, labore magni exercitationem!'} />
+                    <ReviewItem text={'Please contact me to write a review about me!'} />
+                    <ReviewItem text={'Please contact me to write a review about me!'} />
                 </div>
             </InnerLayout>
         </ReviewsStyled>
