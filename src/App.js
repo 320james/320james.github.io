@@ -8,11 +8,12 @@ import ResumePage from "./Pages/ResumePage"
 import PortfoliosPage from "./Pages/PortfoliosPage"
 import BlogsPage from "./Pages/BlogsPage"
 import ContactPage from "./Pages/ContactPage"
-import { Route, Switch as Switching } from "react-router";
+import { Route, Switch as Switching, useLocation } from "react-router";
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Switch from '@material-ui/core/Switch';
 import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from "@material-ui/core";
+
 
 
 
@@ -28,6 +29,15 @@ function App() {
     document.documentElement.className = theme;
   }, [theme])
 
+  let location = useLocation()
+
+  useEffect(
+    () => {
+      setNavToggle(false)
+    },
+    [location]
+  )
+
   const themeToggler = () => {
     if (theme === 'light-theme') {
       setTheme('dark-theme');
@@ -37,6 +47,7 @@ function App() {
       setChecked(true);
     }
   }
+
 
   return (
     <div className="App">
@@ -68,7 +79,7 @@ function App() {
 
       <div className="div"></div>
 
-      <MainContentStyled>
+      <MainContentStyled onClick={() => setNavToggle(false)}>
         <div className="lines">
           <div className="line-1"></div>
           <div className="line-2"></div>

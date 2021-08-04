@@ -18,13 +18,13 @@ const projects = [
         id: 2,
         title: 'Glassmorphism Friend Cards - Responsive React Application',
         image: image2,
-        link: 'https://github.com/320james/friend-cards'
+        link: 'https://friend-id-cards.netlify.app/'
     },
     {
         id: 3,
         title: 'First Portfolio Website - HTML, CSS',
         image: image3,
-        link: 'https://320james.github.io/'
+        link: 'https://github.com/320james/first-website'
     },
     {
         id: 4,

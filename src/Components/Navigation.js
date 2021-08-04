@@ -40,7 +40,7 @@ function Navigation() {
             <footer className="footer">
                 <p>@2021 My Portfolio Website</p>
             </footer>
-        </NavigationStyled>
+        </NavigationStyled >
     );
 }
 

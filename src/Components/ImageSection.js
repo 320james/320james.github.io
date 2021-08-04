@@ -78,6 +78,9 @@ const ImageSectionStyled = styled.div`
     }
     .right-content {
         width: 100%;
+        @media screen and (max-width: 500px) {
+            text-align: center;
+        }
         h4 {
             font-size: 2rem;
             color: var(--white-color);
@@ -92,7 +95,7 @@ const ImageSectionStyled = styled.div`
             display: flex;
             padding-bottom: 1.4rem;
             .info-title {
-                padding-right: 3rem;
+                padding-right: 3.2rem;
                 p {
                     font-weight: 600;
                     @media screen and (max-width: 500px) {
@@ -111,7 +114,6 @@ const ImageSectionStyled = styled.div`
         }
         a {
             @media screen and (max-width: 500px) {
-                margin: 0 23px;
             }
             background-color: var(--primary-color);
             padding: .8rem 2.5rem;
