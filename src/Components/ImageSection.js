@@ -12,13 +12,13 @@ function ImageSection() {
             <div className="right-content">
                 <h4>I am <span>James Kim</span></h4>
                 <p className="paragraph">
-                    I was born in Seoul, South Korea and began my life here in the United States at nine years old. I am currently pursuing my Bachelor's degree in Computer Science at Virginia Tech and working as a Software Engineering intern at Verizon. Some of my hobbies include weight-lifting, fishing, playing basketball, and exploring the world of software development. Nice to meet you :)
+                    I was born in Seoul, South Korea and began my life here in the United States at nine years old. I am currently pursuing my Bachelor's degree in Computer Science at Virginia Tech and developing as a Software Engineering intern at Verizon. Some of my hobbies include weight-lifting, fishing, camping, basketball, and exploring the world of software development. Nice to meet you :)
                 </p>
 
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name:</p>
-                        <p>Age:</p>
+                        <p>Date of Birth:</p>
                         <p>Nationality:</p>
                         <p>Languages:</p>
                         <p>Education:</p>
@@ -27,7 +27,7 @@ function ImageSection() {
                     </div>
                     <div className="info">
                         <p>Geun Hyoung Kim</p>
-                        <p>22</p>
+                        <p>03.20.1999</p>
                         <p>Korean-American</p>
                         <p>English, Korean</p>
                         <p>Virginia Tech</p>
@@ -94,6 +94,10 @@ const ImageSectionStyled = styled.div`
         .about-info {
             display: flex;
             padding-bottom: 1.4rem;
+            @media screen and (max-width: 700px) {
+                justify-content: center;
+                align-items: center
+            }
             .info-title {
                 padding-right: 3.2rem;
                 p {
