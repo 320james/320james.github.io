@@ -6,9 +6,9 @@ import { MainLayout } from '../styles/Layouts';
 import ServicesSection from '../Components/ServicesSection';
 
 
-
 function AboutPage() {
     return (
+
         <MainLayout>
             <AboutStyled>
                 <Title title={'About Me'} span={'About Me'} />
