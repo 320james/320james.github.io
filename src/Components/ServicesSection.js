@@ -17,11 +17,11 @@ function ServicesSection() {
                         {<ServiceCard
                             image={software}
                             title={'Software Development'}
-                            paragraph={'Data Structures & Algorithms, Computer Organization, Software Design & Data Structures, and Computer Systems'} />}
+                            paragraph={'Agile, cohesive teamwork, algorithms, data structures, OOP, efficiency & optimization, REST API'} />}
                         {<ServiceCard
                             image={web}
                             title={'Web Development'}
-                            paragraph={'Front end and UI/UX web development with HTML, CSS, JavaScript, Angular, and React'} />}
+                            paragraph={'Full-stack dev, UI/UX, React.js, Node.js, Express, JavaScript, HTML, CSS'} />}
                         {<ServiceCard
                             image={mobile}
                             title={'Mobile Development'}

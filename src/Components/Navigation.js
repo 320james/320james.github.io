@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import avatar from '../img/avatar.jpg';
+import avatar from '../img/profile.jpg';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 
@@ -13,22 +13,22 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>.home()</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>{`Home`}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class" exact>.about()</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact>{`About`}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class" exact>.resume()</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact>{`Resume`}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>.portfolio()</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>{`Portfolio`}</NavLink>
                 </li>
+                {/* <li className="nav-item">
+                    <NavLink to="/blogs" activeClassName="active-class" exact>{`<Blogs/>`}</NavLink>
+                </li> */}
                 <li className="nav-item">
-                    <NavLink to="/blogs" activeClassName="active-class" exact>.blogs()</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact >.contact()</NavLink>
+                    <NavLink to="/contact" activeClassName="active-class" exact >{`Contact`}</NavLink>
                 </li>
             </ul>
 
@@ -37,9 +37,9 @@ function Navigation() {
                 <a href="https://github.com/320james" className="icon i-github"><GithubIcon /></a>
             </div>
 
-            <footer className="footer">
-                <p>@2021 My Portfolio Website</p>
-            </footer>
+            {/* <footer className="footer">
+                <p>@James_Kim</p>
+            </footer> */}
         </NavigationStyled >
     );
 }
@@ -52,15 +52,16 @@ const NavigationStyled = styled.nav`
     align-items: center;
     height: 100%;
     width: 100%;
-    border-right: 1px solid var(--border-color);
+    border-right: 0.5px solid var(--border-color);
+    
 
         .icons {
-            position: absolute;
-            bottom: 4.8rem;
+            position: relative;
+            bottom: 2rem;
             display: flex;
             justify-content: center;
             .icon {
-                border: 2px solid var(--border-color);
+                border: 1px solid var(--border-color);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -93,13 +94,13 @@ const NavigationStyled = styled.nav`
 
     .avatar {
         width: 100%;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 0.5px solid var(--border-color);
         text-align: center;
         padding: 1rem 0;
         img {
             width: 70%;
             border-radius: 50%;
-            border: 8px solid var(--border-color);
+            border: 2px solid var(--border-color);
             
         }
     }
@@ -115,14 +116,15 @@ const NavigationStyled = styled.nav`
         li {
             display: block;
             a {
+                text-align: center;
                 display: block;
-                padding: .45rem 0;
+                padding: .55rem 0;
                 position: relative;
                 z-index: 10;
                 //text-transform: uppercase;
-                transition: all .4s ease-in-out;
-                font-weight: 600;
-                letter-spacing: 1px;
+                transition: all .6s ease-in-out;
+                font-weight: 400;
+                letter-spacing: 1.4px;
 
                 &:hover {
                     cursor: pointer;
@@ -136,7 +138,7 @@ const NavigationStyled = styled.nav`
                     width: 0%;
                     height: 50%;
                     background-color: var(--primary-color);
-                    transition: All 0.4s cubic-bezier(1,-0.2,.25,.95);
+                    transition: All 0.6s cubic-bezier(1,-0.2,.25,.95);
                     z-index: -1;
                     opacity: 0.21;
                     

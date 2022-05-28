@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import about from '../img/about_me_picture.jpg';
+import about from '../img/about_me_pic.jpg';
 //import PrimaButton from './PrimaryButton';
 
 function ImageSection() {
@@ -10,9 +10,9 @@ function ImageSection() {
                 <img src={about} alt="" />
             </div>
             <div className="right-content">
-                <h4>I am <span>James Kim</span></h4>
+                <h4>I am... <span>James!</span></h4>
                 <p className="paragraph">
-                    I was born in Seoul, South Korea and began my life here in the United States at nine years old. I am currently pursuing my Bachelor's degree in Computer Science at Virginia Tech and developing as a Software Engineering intern at Verizon. Some of my hobbies include weight-lifting, fishing, camping, basketball, and exploring the world of software development. Nice to meet you :)
+                    I was born in Seoul, South Korea and began my life here in the United States at nine years old. I received my Bachelor's degree in Computer Science at Virginia Tech and I am currently a junior-level software engineer. I'm passionate about weight-lifting, fishing, camping, and exploring about what the world has to offer! It's nice to see you here :)
                 </p>
 
                 <div className="about-info">
@@ -23,16 +23,14 @@ function ImageSection() {
                         <p>Languages:</p>
                         <p>Education:</p>
                         <p>Location:</p>
-                        <p>Concentration:</p>
                     </div>
                     <div className="info">
                         <p>Geun Hyoung Kim</p>
                         <p>03.20.1999</p>
                         <p>Korean-American</p>
                         <p>English, Korean</p>
-                        <p>Virginia Tech</p>
-                        <p>Burke, Virginia</p>
-                        <p>Computer Science</p>
+                        <p>C.S @ Virginia Tech</p>
+                        <p>Charlottesville, VA</p>
                     </div>
                 </div>
                 <a href="https://drive.google.com/file/d/1hYJA6wKsFDncF1RMFhw_Nyjw-MeRnrdC/view?usp=sharing">View Resume</a>
@@ -54,25 +52,26 @@ const ImageSectionStyled = styled.div`
     
     .left-content{ 
         width: 100%;
-        
+
         img {
             @media screen and (max-width: 500px) {
                 width: 100%;
             }
 
-            width: 90%;
+            border-radius: 5px;
+            width: 93%;
             object-fit: cover;
             background-color: var(--background-dark-grey);
-            border-left: 5px solid var(--border-color);
-            border-right: 5px solid var(--border-color);
-            border-top: 5px solid var(--border-color);
-            border-bottom: 5px solid var(--border-color);
+            border-left: 1px solid var(--border-color);
+            border-right: 1px solid var(--border-color);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
             transition: all .4s ease-in-out;
             box-shadow: 4px 4px 5px rgba(0,0,0, .3);
 
             &:hover {
                 cursor: pointer;
-                transform: rotate(1.7deg) scale(1.03);
+                transform: rotate(0.4deg) scale(1.01);
             }
         }
     }
@@ -101,7 +100,7 @@ const ImageSectionStyled = styled.div`
             .info-title {
                 padding-right: 3.2rem;
                 p {
-                    font-weight: 600;
+                    font-weight: 400;
                     @media screen and (max-width: 500px) {
                         font-size: 17px;
                     }

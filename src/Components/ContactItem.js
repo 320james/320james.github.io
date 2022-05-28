@@ -25,8 +25,9 @@ const ContactItemStyled = styled.div`
     background-color: var(--background-dark-grey);
     display: flex;
     align-items: center;
-    border: 2px solid var(--border-color);
+    border: 1px solid var(--border-color);
     box-shadow: 4px 4px 5px rgba(0,0,0, .4);
+    border-radius: 5px;
 
     &:not(:last-child) {
         margin-bottom: 2.2rem;
@@ -36,7 +37,6 @@ const ContactItemStyled = styled.div`
             padding: 0.7rem;
         }
         padding: 1.5rem;
-        border: 1px solid var(--border-color);
         display: flex;
         align-items: center;
         justify-content: center;

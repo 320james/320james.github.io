@@ -24,22 +24,22 @@ function ContactPage() {
                         </div>
                         <form className="form" action="https://formspree.io/f/mknkrqpq" method="POST" id="my-form">
                             <div className="form-field">
-                                <label htmlFor="name">Enter your name*</label>
+                                <label htmlFor="name">Name</label>
                                 <input type="text" id="name" name="name" />
 
                             </div>
                             <div className="form-field">
-                                <label htmlFor="email">Enter your email*</label>
+                                <label htmlFor="email">Email</label>
                                 <input type="text" id="email" name="email" />
 
                             </div>
                             <div className="form-field">
-                                <label htmlFor="subject">Enter subject*</label>
+                                <label htmlFor="subject">Subject</label>
                                 <input type="text" id="subject" name="subject" />
 
                             </div>
                             <div className="form-field">
-                                <label htmlFor="text-area">Enter message*</label>
+                                <label htmlFor="text-area">Message</label>
                                 <textarea className="textarea" name="message" id="textarea" cols="30" rows="10"></textarea>
                             </div>
                             <div className="form-field f-button">
@@ -51,8 +51,8 @@ function ContactPage() {
 
                     <div className="right-content">
                         <ContactItem title={'Phone'} icon={phone} cont1={'703-678-6883'} />
-                        <ContactItem title={'Email'} icon={email} cont1={'thejameskim@vt.edu'} cont2={'320james@gmail.com'} />
-                        <ContactItem title={'Address'} icon={location} cont1={'9418 Packard Way'} cont2={'Burke VA, 22015'} />
+                        <ContactItem title={'Email'} icon={email} cont1={'320james@gmail.com'} />
+                        <ContactItem title={'Location'} icon={location} cont1={'Charlottesville, VA'} />
 
                     </div>
                 </InnerLayout>
@@ -69,6 +69,7 @@ const ContactPageStyled = styled.section`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 2rem;
+        
 
         @media screen and (max-width: 600px) {
             grid-template-columns: repeat(1, 1fr);
@@ -99,21 +100,25 @@ const ContactPageStyled = styled.section`
         }
         .form {
             width: 100%;
+            
 
             .form-field {
+                
                 margin-top: 2rem;
                 position: relative;
                 width: 100%;
                 label {
                     position: absolute;
-                    left: 20px;
-                    top: -19px;
+                    font-size: 0.9rem;
+                    top: -2rem;
                     display: inline-block;
-                    background-color: var(--background-dark-color);
-                    padding: 0 .5rem;
+                    background-color: rgba(0, 0, 0, 0);
+                    padding: 0.5rem;
                     color: inherit;
                 }
                 input {
+                    border-radius: 5px;
+                    font-size: 0.9rem;
                     border: 1px solid var(--border-color);
                     outline: none;
                     background: transparent;
@@ -123,6 +128,9 @@ const ContactPageStyled = styled.section`
                     color: inherit;
                 }
                 textarea {
+                    border-radius: 5px;
+                    font-size: 0.9rem;
+
                     background-color: transparent;
                     border: 1px solid var(--border-color);
                     outline: none;

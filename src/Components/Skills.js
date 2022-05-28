@@ -13,33 +13,33 @@ function Skills() {
                 <div className="skills">
                     <ProgressBar
                         title={'Java'}
-                        width={'70%'}
-                        text={'70%'}
+                        width={'50%'}
+                        text={'50%'}
                     />
                     <ProgressBar
                         title={'C'}
-                        width={'65%'}
-                        text={'65%'}
+                        width={'45%'}
+                        text={'45%'}
                     />
                     <ProgressBar
                         title={'ReactJS'}
+                        width={'35%'}
+                        text={'35%'}
+                    />
+                    <ProgressBar
+                        title={'Swift'}
                         width={'30%'}
                         text={'30%'}
                     />
                     <ProgressBar
-                        title={'Swift'}
-                        width={'55%'}
-                        text={'55%'}
+                        title={'HTML5/CSS3'}
+                        width={'60%'}
+                        text={'60%'}
                     />
                     <ProgressBar
-                        title={'HTML5'}
-                        width={'70%'}
-                        text={'70%'}
-                    />
-                    <ProgressBar
-                        title={'CSS3'}
-                        width={'55%'}
-                        text={'55%'}
+                        title={'MySQL'}
+                        width={'35%'}
+                        text={'35%'}
                     />
                     <ProgressBar
                         title={'JavaScript'}
