@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7dcf01b0.chunk.js",
+    "main.js.map": "/static/js/main.7dcf01b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
+    "static/js/2.5a26a9f3.chunk.js": "/static/js/2.5a26a9f3.chunk.js",
+    "static/js/2.5a26a9f3.chunk.js.map": "/static/js/2.5a26a9f3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.5a26a9f3.chunk.js.LICENSE.txt": "/static/js/2.5a26a9f3.chunk.js.LICENSE.txt",
+    "static/media/MIPS_img.6cf220f7.png": "/static/media/MIPS_img.6cf220f7.png",
+    "static/media/about_me_pic.40e00735.jpg": "/static/media/about_me_pic.40e00735.jpg",
+    "static/media/cheers.716d73ad.jpg": "/static/media/cheers.716d73ad.jpg",
+    "static/media/covid.a4416501.jpg": "/static/media/covid.a4416501.jpg",
+    "static/media/covidTravel_img.866308f3.jpg": "/static/media/covidTravel_img.866308f3.jpg",
+    "static/media/first_website_img.3f08aa28.png": "/static/media/first_website_img.3f08aa28.png",
+    "static/media/food.2ec5a8e5.svg": "/static/media/food.2ec5a8e5.svg",
+    "static/media/friendCard_img.87e1b0ad.png": "/static/media/friendCard_img.87e1b0ad.png",
+    "static/media/mobile-development.a91f163a.svg": "/static/media/mobile-development.a91f163a.svg",
+    "static/media/netflix.05af1528.svg": "/static/media/netflix.05af1528.svg",
+    "static/media/profile.03163ded.jpg": "/static/media/profile.03163ded.jpg",
+    "static/media/software-development.e3180cc5.svg": "/static/media/software-development.e3180cc5.svg",
+    "static/media/web-development.568e38b2.svg": "/static/media/web-development.568e38b2.svg",
+    "static/media/wildlife.3131f405.jpg": "/static/media/wildlife.3131f405.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b83279d6.js",
+    "static/js/2.5a26a9f3.chunk.js",
+    "static/js/main.7dcf01b0.chunk.js"
+  ]
+}
